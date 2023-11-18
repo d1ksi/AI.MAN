@@ -1,0 +1,11 @@
+.headerWrapper {
+  max-width: 100vw;
+  overflow: hidden;
+  margin: 48px 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 1040px) {
+    margin: 28px 38px;
+  }
+}

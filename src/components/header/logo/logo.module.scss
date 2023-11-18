@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  p {
+    background: linear-gradient(45deg, #a7f306, #f3cd06);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Raleway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    &:nth-last-child(1) {
+      background: none;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

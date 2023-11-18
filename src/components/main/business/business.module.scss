@@ -1,0 +1,143 @@
+.businessWrapper {
+  margin: 160px 64px;
+  @media (max-width: 1040px) {
+    margin: 120px 44px;
+  }
+  @media (max-width: 570px) {
+    margin: 100px 24px;
+  }
+  @media (max-width: 350px) {
+    margin: 100px 14px;
+  }
+  h2 {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media (max-width: 1040px) {
+      font-size: 70px;
+    }
+    @media (max-width: 800px) {
+      font-size: 50px;
+    }
+    @media (max-width: 530px) {
+      font-size: 40px;
+    }
+    @media (max-width: 440px) {
+      font-size: 30px;
+    }
+    @media (max-width: 350px) {
+      font-size: 28px;
+    }
+    span {
+      background: linear-gradient(308deg, #a7f306 2.04%, #f3cd06 98.59%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Raleway";
+    }
+  }
+  .contentWrapper {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 830px) {
+      margin-top: 60px;
+    }
+    @media (max-width: 530px) {
+      margin-top: 30px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      .contentTitle {
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        @media (max-width: 1040px) {
+          margin-bottom: 40px;
+        }
+        @media (max-width: 830px) {
+          width: 600px;
+        }
+        @media (max-width: 630px) {
+          width: 400px;
+        }
+        @media (max-width: 440px) {
+          width: 300px;
+        }
+        button {
+          cursor: pointer;
+          border: none;
+          background-color: transparent;
+          width: 100px;
+          height: 100px;
+          flex-shrink: 0;
+          @media (max-width: 630px) {
+            width: 60px;
+            height: 60px;
+          }
+          svg {
+            opacity: 0.5;
+            &:hover {
+              opacity: 1;
+              @media (max-width: 830px) {
+                opacity: 0.5;
+              }
+            }
+          }
+        }
+        h3 {
+          text-align: center;
+          color: #fff;
+          opacity: 0.4;
+          font-family: "Raleway";
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: 1px;
+          @media (max-width: 630px) {
+            font-size: 26px;
+          }
+          @media (max-width: 440px) {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    .text {
+      width: 800px;
+      margin-bottom: 18px;
+      color: #fff;
+      opacity: 0.5;
+      font-family: "Plus Jakarta Sans";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1px;
+      @media (max-width: 830px) {
+        width: 600px;
+      }
+      @media (max-width: 630px) {
+        width: 400px;
+        font-size: 20px;
+      }
+      @media (max-width: 440px) {
+        width: 300px;
+        font-size: 18px;
+      }
+    }
+  }
+}
